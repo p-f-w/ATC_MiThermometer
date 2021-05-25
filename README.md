@@ -2,7 +2,7 @@ until now only a fork of https://github.com/pvvx/ATC_MiThermometer
 
 i need a new firmware for a bluetoothdongle for jbd bms, because it is without password protection and it is possible to clear password of bms (version 0x20) and/or overwrite firmware of the bluetoothdongle(with TSLR8521 (F512ET24 or F512ET32 - other dongels exists, but i don't know them)) OTA
 
-until now i will not publish the changes, because it is not functional with original apps, communication from BLE to client is not working like the original
+until now i will not publish the changes, because it is not functional with original apps, communication from BLE to client is not working like the original (must go via 2 services like SPP in examples of used SDK)
 
 ------------------------------------------------------------------------------------------------------
 
